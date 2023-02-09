@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dotter Tokyo",
+    "version": "3.0",
+    "description": "文字に疲れた全ての人へ",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ]
+}
